@@ -5,8 +5,7 @@ package exercise1;
  * It then searches the array of cards for the match to the user's card. 
  * To be used as starting code in Exercise
  *
- * @author dancye
- * @author Paul Bonenfant Jan 25, 2022 
+ * @author Ahmed Qazi Jan 31, 2023 
  */
 public class CardTrick {
     
@@ -16,13 +15,40 @@ public class CardTrick {
 
         for (int i = 0; i < hand.length; i++) {
             Card card = new Card();
+            card.setValue;
+            card.setSuit;
+            random.nextInt(n);
+            
             //card.setValue(insert call to random number generator here)
             // 
             //card.setSuit(Card.SUITS[insert call to random number between 0-3 here])
             // Hint: You can use Random -> random.nextInt(n) to get a random number between 0 and n-1 (inclusive)
             //       Don't worry about duplicates at this point
         }
-
+		
+        Card countArray = new Card[7];
+        
+        countArray[0] value = 1;
+        countArray[0] suits = spades;
+        
+        countArray[1] value = 2;
+        countArray[1] suits = hearts;
+        
+        countArray[2] value = 3;
+        countArray[2] suits = diamonds;
+        
+        countArray[3] value = 4;
+        countArray[3] suits = clubs;
+        
+        countArray[4] value = 5;
+        countArray[4] suits = news;
+        
+        countArray[5] value = 6;
+        countArray[5] suits = cues;
+      
+        countArray[6] value = 7;
+        countArray[6] suits = news;
+        
         // insert code to ask the user for Card value and suit, create their card
         // and search the hand here. 
         // Hint: You can ask for values 1 to 10, and then
@@ -32,34 +58,21 @@ public class CardTrick {
         // Then loop through the cards in the array to see if there's a match.
         
         // If the guess is successful, invoke the printInfo() method below.
+        printInfo();
         
     }
 
     /**
      * A simple method to print out personal information. Follow the instructions to 
      * replace this information with your own.
-     * @author Paul Bonenfant Jan 2022
+     * @author Ahmed Qazi Jan 31, 2023 
      */
     private static void printInfo() {
     
         System.out.println("Congratulations, you guessed right!");
         System.out.println();
         
-        System.out.println("My name is Paul, but you can call me prof, Paul or sir");
-        System.out.println();
-        
-        System.out.println("My career ambitions:");
-        System.out.println("-- Be more active on LinkedIn");
-        System.out.println("-- Have a semester with no violations of academic integrity!");
-	System.out.println();	
-
-        System.out.println("My hobbies:");
-        System.out.println("-- Investing");
-        System.out.println("-- Cooking");
-        System.out.println("-- Reading/Watching TV");
-        System.out.println("-- Riding my motorcycle");
-
-        System.out.println();
+        System.out.println("My name is Ahmed, I like to play badminton. I am a student at sheridan college");
         
     
     }
