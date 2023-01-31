@@ -72,7 +72,7 @@ public class CardTrick {
         System.out.println("Congratulations, you guessed right!");
         System.out.println();
         
-        System.out.println("My name is Ahmed, I like to play badminton. I am a student at sheridan college");
+        System.out.println("My name is Ahmed, I like to play badminton. I am a student at sheridan college. I am studying computer science");
         
     
     }
