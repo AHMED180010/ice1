@@ -68,12 +68,12 @@ public class CardTrick {
      * @author Ahmed Qazi Jan 31, 2023 
      */
     private static void printInfo() {
-    
+    // I am done!
         System.out.println("Congratulations, you guessed right!");
         System.out.println();
         
         System.out.println("My name is Ahmed, I like to play badminton. I am a student at sheridan college. I am studying computer science");
-        
+        System.out.println("Im done");
     
     }
 
